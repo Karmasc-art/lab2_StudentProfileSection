@@ -7,14 +7,223 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:background="#1D24FF" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="254dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="644dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Karma Sangay Chophel"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="585dp"
+        android:text="Information Technology"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="A"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="697dp"
+        android:text="My Profile"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="630dp"
+        android:text="02240158"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="612dp"
+        android:text="Computing Technologies Department"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="574dp"
+        app:srcCompat="@drawable/_50b60786_2e09_4e39_bb49_54b1d874780d" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextTextEmailAddress3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="340dp"
+        android:layout_marginBottom="4dp"
+        android:text="Email"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="213dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="424dp"
+        android:ems="10"
+        android:text="karmasangaychophel@gmail.com"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextPhone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="337dp"
+        android:layout_marginBottom="0dp"
+        android:text="Phone "
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="350dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="17486153"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="183dp"
+        android:layout_height="539dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-7dp"
+        android:layout_marginBottom="-1dp"
+        android:background="#03A9F4" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="510dp"
+        android:text="More About Me" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="480dp"
+        android:text="- From Pemagatshel" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="446dp"
+        android:text="- Loves to game" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="410dp"
+        android:text="- Not a coding fan" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="168dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/radioButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="6dp"
+        android:text="Choose module to take:" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="251dp"
+        android:text="Statistics" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="274dp"
+        android:layout_marginBottom="221dp"
+        android:text="Cybersecurity" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="224dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="187dp"
+        android:text="Mobile application development" />
 
     <Button
         android:id="@+id/button"
@@ -22,8 +231,28 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="160dp"
-        android:layout_marginBottom="191dp"
-        android:text="Button" />
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="128dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="75dp"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="24dp"
+        android:text="Clear" />
 
 </RelativeLayout>
